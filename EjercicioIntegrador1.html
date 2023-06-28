@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>*-*Ejercicio Integrador 1*-*</title>
+</head>
+<body>
+    <script>
+        let nombre= prompt("Ingrese su nombre")
+            document.write(nombre+"<br>")
+            document.write("********************<br>")
+        let numero=parseInt(prompt("Ingrese un número"))
+            document.write("Ingrese un número: "+numero+"<br>")
+            for(let x=1;x<=numero;x++){
+                document.write(nombre+"<br>")
+            }
+        let palabra = prompt("Ingrese una palabra")
+            document.write("Ingrese una palabra: "+palabra+"<br>")
+
+        if(palabra.length<nombre.length){
+            //document.write(palabra.length+"<br>")
+            document.write("Tiene menos")
+        }else{
+            //document.write(palabra.length+"<br>")
+            document.write("<br>Tiene más")
+        }
+    </script>
+</body>
+</html>
